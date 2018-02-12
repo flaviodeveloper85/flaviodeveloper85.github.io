@@ -70,7 +70,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script> 
     <script>
         $('.box-item').hover(function(){
-                $('.box-item').addClass('bounceIn');
+                $(this).removeClass('zoomIn');
+                $(this).addClass('bounceIn');
             }); 
     </script>  
 </body>
